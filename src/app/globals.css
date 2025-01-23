@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #e0e0da;
+  --foreground: #2a2829;
+  --font-color-main: #2a2829; /* Main font color */
+  --font-color-second: #ffffff; /* Secondary font color */
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-elisabethische), serif; 
+  -webkit-font-smoothing: antialiased; /* Smooth text for WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooth text for macOS */
+}
+
+
+@font-face {
+  font-family: "Elisabethische"; /* The name of the font */
+  src: url("/fonts/Elisabethische-Regular.ttf") format("truetype"); /* Path to the font file */
+  font-weight: normal; /* Adjust weight if applicable */
+  font-style: normal;  /* Adjust style if applicable */
+}
