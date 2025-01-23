@@ -18,7 +18,7 @@ export default function WhoWeAre() {
           <div
             className="h-full w-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/desk.jpg')",
+              backgroundImage: "url('/handshake.jpg')",
             }}
           />
           {/* Overlay */}
